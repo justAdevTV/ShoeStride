@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     boolean activityRunning, initialStep = true;
     private float initialStepCount;
     final Handler handler = new Handler();
+    ViewGroup thisLayout,customMain;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +37,10 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        System.out.println("onCreate");
 
+        thisLayout = (ViewGroup) findViewById(R.id.mainLayout);
+        customMain = (ViewGroup) findViewById(R.id.customMain);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -95,15 +99,18 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
     public void flick(View view){
         View imageView = findViewById(R.id.foot);
+        //TransitionManager.beginDelayedTransition(thisLayout);
+        //TransitionManager.beginDelayedTransition(customMain);
         ViewGroup.LayoutParams sizeRule = imageView.getLayoutParams();
         sizeRule.width += 53;
         sizeRule.height += 53;
-       // TransitionManager.beginDelayedTransition(sizeRule);
+        //TransitionManager.beginDelayedTransition(thislayout);
 
         imageView.setLayoutParams(sizeRule);
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
+                //TransitionManager.beginDelayedTransition(customMain);
                 final ViewGroup.LayoutParams sizeRule2 = findViewById(R.id.foot).getLayoutParams();
                 sizeRule2.width = 50;
                 sizeRule2.height = 50;
