@@ -20,7 +20,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
     private SensorManager sensorManager;
     private TextView count;
-    boolean activityRunning;
+    boolean activityRunning, initialStep = true;
+    private float initialStepCount;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,7 +73,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         if (countSensor != null) {
             sensorManager.registerListener(this, countSensor, SensorManager.SENSOR_DELAY_UI);
         } else {
-            Toast.makeText(this, "Count sensor not available!", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Accelerometer sensor not available!", Toast.LENGTH_LONG).show();
         }
 
     }
@@ -87,8 +88,12 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
     @Override
     public void onSensorChanged(SensorEvent event) {
+        if(initialStep) {
+            initialStep = false;
+            initialStepCount = event.values[0];
+        }
         if (activityRunning) {
-            count.setText(String.valueOf(event.values[0]));
+            count.setText(String.valueOf(event.values[0] - initialStepCount));
         }
 
     }

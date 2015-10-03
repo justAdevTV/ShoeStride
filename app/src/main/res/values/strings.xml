@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">Shoe Stride</string>
-    <string name="large_text">
-        "This should show up."
+    <string name="no_sensor">
+        "No accelerometer sensor found."
     </string>
     <string name="action_settings">Settings</string>
-    <string name="button1">foo1</string>
 </resources>
