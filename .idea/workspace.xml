@@ -23,14 +23,12 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eeca508-c291-4825-b620-08a7726b494e" name="Default" comment="Exploding image and broken debug button1">
+    <list default="true" id="1eeca508-c291-4825-b620-08a7726b494e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/io/brightgears/shoestride/shoestride/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/io/brightgears/shoestride/shoestride/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -84,15 +82,15 @@
                   <state />
                 </provider>
                 <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.33333334">
-                    <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+                  <state vertical-scroll-proportion="0.32897604">
+                    <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
                     <folding>
                       <element signature="e#277#317#0" expanded="true" />
                       <element signature="e#862#882#0" expanded="true" />
                       <element signature="e#983#1002#0" expanded="true" />
                       <element signature="e#1171#1195#0" expanded="true" />
-                      <element signature="e#1460#1484#0" expanded="true" />
-                      <element signature="e#1707#1731#0" expanded="true" />
+                      <element signature="e#1453#1477#0" expanded="true" />
+                      <element signature="e#1700#1724#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
@@ -118,28 +116,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/io/brightgears/shoestride/shoestride/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.927305">
+              <caret line="124" column="35" selection-start-line="124" selection-start-column="35" selection-end-line="124" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1396#1664#0" expanded="true" />
-                <element signature="e#1663#1664#0" expanded="true" />
-                <element signature="e#3526#3865#0" expanded="true" />
-                <element signature="e#3864#3865#0" expanded="true" />
+                <element signature="e#1441#1709#0" expanded="true" />
+                <element signature="e#1708#1709#0" expanded="true" />
+                <element signature="e#3643#3982#0" expanded="true" />
+                <element signature="e#3981#3982#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Override.java" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/java/lang/Override.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57093424">
-              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -1645,8 +1633,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/io/brightgears/shoestride/shoestride/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/io/brightgears/shoestride/shoestride/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -2120,7 +2108,13 @@
       <option name="project" value="LOCAL" />
       <updated>1443896884517</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Exploding image and broken debug button1">
+      <created>1443910943058</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1443910943058</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -2145,14 +2139,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="69" y="-9" width="1860" height="1098" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283433" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.49701494" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34251103" sideWeight="0.49001995" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34251103" sideWeight="0.49001995" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39958805" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32955715" sideWeight="0.50998" order="7" side_tool="true" content_ui="tabs" />
@@ -2160,7 +2154,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285273" sideWeight="0.49401197" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3270925" sideWeight="0.49600798" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270925" sideWeight="0.49600798" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947975" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918397" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2251,8 +2245,8 @@
             <element signature="e#862#882#0" expanded="true" />
             <element signature="e#983#1002#0" expanded="true" />
             <element signature="e#1171#1195#0" expanded="true" />
-            <element signature="e#1460#1484#0" expanded="true" />
-            <element signature="e#1707#1731#0" expanded="true" />
+            <element signature="e#1453#1477#0" expanded="true" />
+            <element signature="e#1700#1724#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2271,10 +2265,10 @@
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1396#1664#0" expanded="true" />
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#3526#3865#0" expanded="true" />
-            <element signature="e#3864#3865#0" expanded="true" />
+            <element signature="e#1441#1709#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
+            <element signature="e#3643#3982#0" expanded="true" />
+            <element signature="e#3981#3982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2326,8 +2320,8 @@
             <element signature="e#862#882#0" expanded="true" />
             <element signature="e#983#1002#0" expanded="true" />
             <element signature="e#1171#1195#0" expanded="true" />
-            <element signature="e#1460#1484#0" expanded="true" />
-            <element signature="e#1707#1731#0" expanded="true" />
+            <element signature="e#1453#1477#0" expanded="true" />
+            <element signature="e#1700#1724#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2346,10 +2340,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1396#1664#0" expanded="true" />
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#3526#3865#0" expanded="true" />
-            <element signature="e#3864#3865#0" expanded="true" />
+            <element signature="e#1441#1709#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
+            <element signature="e#3643#3982#0" expanded="true" />
+            <element signature="e#3981#3982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2393,8 +2387,8 @@
             <element signature="e#862#882#0" expanded="true" />
             <element signature="e#983#1002#0" expanded="true" />
             <element signature="e#1171#1195#0" expanded="true" />
-            <element signature="e#1460#1484#0" expanded="true" />
-            <element signature="e#1707#1731#0" expanded="true" />
+            <element signature="e#1453#1477#0" expanded="true" />
+            <element signature="e#1700#1724#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2413,10 +2407,10 @@
           <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1396#1664#0" expanded="true" />
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#3526#3865#0" expanded="true" />
-            <element signature="e#3864#3865#0" expanded="true" />
+            <element signature="e#1441#1709#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
+            <element signature="e#3643#3982#0" expanded="true" />
+            <element signature="e#3981#3982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2460,8 +2454,8 @@
             <element signature="e#862#882#0" expanded="true" />
             <element signature="e#983#1002#0" expanded="true" />
             <element signature="e#1171#1195#0" expanded="true" />
-            <element signature="e#1460#1484#0" expanded="true" />
-            <element signature="e#1707#1731#0" expanded="true" />
+            <element signature="e#1453#1477#0" expanded="true" />
+            <element signature="e#1700#1724#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2480,10 +2474,10 @@
           <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1396#1664#0" expanded="true" />
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#3526#3865#0" expanded="true" />
-            <element signature="e#3864#3865#0" expanded="true" />
+            <element signature="e#1441#1709#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
+            <element signature="e#3643#3982#0" expanded="true" />
+            <element signature="e#3981#3982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2527,8 +2521,8 @@
             <element signature="e#862#882#0" expanded="true" />
             <element signature="e#983#1002#0" expanded="true" />
             <element signature="e#1171#1195#0" expanded="true" />
-            <element signature="e#1460#1484#0" expanded="true" />
-            <element signature="e#1707#1731#0" expanded="true" />
+            <element signature="e#1453#1477#0" expanded="true" />
+            <element signature="e#1700#1724#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2547,10 +2541,10 @@
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1396#1664#0" expanded="true" />
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#3526#3865#0" expanded="true" />
-            <element signature="e#3864#3865#0" expanded="true" />
+            <element signature="e#1441#1709#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
+            <element signature="e#3643#3982#0" expanded="true" />
+            <element signature="e#3981#3982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2578,8 +2572,8 @@
             <element signature="e#862#882#0" expanded="true" />
             <element signature="e#983#1002#0" expanded="true" />
             <element signature="e#1171#1195#0" expanded="true" />
-            <element signature="e#1460#1484#0" expanded="true" />
-            <element signature="e#1707#1731#0" expanded="true" />
+            <element signature="e#1453#1477#0" expanded="true" />
+            <element signature="e#1700#1724#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2598,10 +2592,10 @@
           <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1396#1664#0" expanded="true" />
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#3526#3865#0" expanded="true" />
-            <element signature="e#3864#3865#0" expanded="true" />
+            <element signature="e#1441#1709#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
+            <element signature="e#3643#3982#0" expanded="true" />
+            <element signature="e#3981#3982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2612,10 +2606,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1396#1664#0" expanded="true" />
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#3526#3865#0" expanded="true" />
-            <element signature="e#3864#3865#0" expanded="true" />
+            <element signature="e#1441#1709#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
+            <element signature="e#3643#3982#0" expanded="true" />
+            <element signature="e#3981#3982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2626,10 +2620,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1396#1664#0" expanded="true" />
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#3526#3865#0" expanded="true" />
-            <element signature="e#3864#3865#0" expanded="true" />
+            <element signature="e#1441#1709#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
+            <element signature="e#3643#3982#0" expanded="true" />
+            <element signature="e#3981#3982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2720,20 +2714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/brightgears/shoestride/shoestride/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1396#1664#0" expanded="true" />
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#3526#3865#0" expanded="true" />
-            <element signature="e#3864#3865#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/java/lang/Override.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.57093424">
@@ -2747,15 +2727,29 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.32897604">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
           <folding>
             <element signature="e#277#317#0" expanded="true" />
             <element signature="e#862#882#0" expanded="true" />
             <element signature="e#983#1002#0" expanded="true" />
             <element signature="e#1171#1195#0" expanded="true" />
-            <element signature="e#1460#1484#0" expanded="true" />
-            <element signature="e#1707#1731#0" expanded="true" />
+            <element signature="e#1453#1477#0" expanded="true" />
+            <element signature="e#1700#1724#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/brightgears/shoestride/shoestride/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.927305">
+          <caret line="124" column="35" selection-start-line="124" selection-start-column="35" selection-end-line="124" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1441#1709#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
+            <element signature="e#3643#3982#0" expanded="true" />
+            <element signature="e#3981#3982#0" expanded="true" />
           </folding>
         </state>
       </provider>

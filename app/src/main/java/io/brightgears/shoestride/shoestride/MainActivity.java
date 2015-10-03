@@ -11,6 +11,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.transition.TransitionManager;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -92,11 +93,13 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 //        sensorManager.unregisterListener(this);
     }
 
-    public void flick(){
+    public void flick(View view){
         View imageView = findViewById(R.id.foot);
         ViewGroup.LayoutParams sizeRule = imageView.getLayoutParams();
         sizeRule.width += 53;
         sizeRule.height += 53;
+       // TransitionManager.beginDelayedTransition(sizeRule);
+
         imageView.setLayoutParams(sizeRule);
         handler.postDelayed(new Runnable() {
             @Override
@@ -119,7 +122,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         if (activityRunning) {
             count.setText(String.valueOf(event.values[0] - initialStepCount));
         }
-       flick();
+       flick(findViewById(R.id.foot));
 
 
     }
