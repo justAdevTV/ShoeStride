@@ -2,39 +2,39 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\akivuls\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jar="C:\Users\justp_000\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="C:\Users\akivuls\StudioProjects\ShoeStride\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-64d7e0969849e2ac4ae4acac35e4e3a4cde18c17.jar" />
+        <dex dex="C:\Users\justp_000\AndroidStudioProjects\ShoeStride\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-ecde937bcdfa8021cb2b55b9041ecefb1cde77ea.jar" />
     </item>
     <item
-        jar="C:\Users\akivuls\StudioProjects\ShoeStride\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="C:\Users\akivuls\StudioProjects\ShoeStride\app\build\intermediates\pre-dexed\debug\classes-69127186f092a43b186ab8dc62b4259c6a52a809.jar" />
-    </item>
-    <item
-        jar="C:\Users\akivuls\StudioProjects\ShoeStride\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
-        <dex dex="C:\Users\akivuls\StudioProjects\ShoeStride\app\build\intermediates\pre-dexed\debug\classes-a27254132a5f233f02734db4b6b9bb43bb1fd81b.jar" />
-    </item>
-    <item
-        jar="C:\Users\akivuls\StudioProjects\ShoeStride\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jar="C:\Users\justp_000\AndroidStudioProjects\ShoeStride\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="C:\Users\akivuls\StudioProjects\ShoeStride\app\build\intermediates\pre-dexed\debug\classes-5ce0505e39f6ceb0d1badd15645ce4b379fa61d4.jar" />
+        <dex dex="C:\Users\justp_000\AndroidStudioProjects\ShoeStride\app\build\intermediates\pre-dexed\debug\classes-5b0d842dd2c32db5963b54e1227bd76050179c6d.jar" />
     </item>
     <item
-        jar="C:\Users\akivuls\StudioProjects\ShoeStride\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jar="C:\Users\justp_000\AndroidStudioProjects\ShoeStride\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="C:\Users\justp_000\AndroidStudioProjects\ShoeStride\app\build\intermediates\pre-dexed\debug\classes-b08f866a403b510658cb3f1d5090179295495327.jar" />
+    </item>
+    <item
+        jar="C:\Users\justp_000\AndroidStudioProjects\ShoeStride\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\justp_000\AndroidStudioProjects\ShoeStride\app\build\intermediates\pre-dexed\debug\classes-bf4e51d5bb5475a8db68d81e53aa916798fc0d51.jar" />
+    </item>
+    <item
+        jar="C:\Users\justp_000\AndroidStudioProjects\ShoeStride\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="C:\Users\akivuls\StudioProjects\ShoeStride\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-172bbc983d2d660c1d67979f56f7d460ab2e520a.jar" />
+        <dex dex="C:\Users\justp_000\AndroidStudioProjects\ShoeStride\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-0ef7103d857abe30da33ef20937fa4c8a81041b2.jar" />
     </item>
 
 </items>
