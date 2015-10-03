@@ -7,7 +7,38 @@
     tools:showIn="@layout/activity_main" android:layout_width="match_parent"
     android:layout_height="match_parent" tools:context=".MainActivity">
 
-    <TextView android:id="@+id/count" android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin" android:text="@string/no_sensor" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:gravity = "center"
+            android:textSize="40sp"
+            android:text="@string/no_sensor" />
+
+        <Button android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button1_string"
+            android:layout_gravity="center_horizontal" />
+        <Button android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button2_string"
+            android:layout_gravity="center_horizontal" />
+        <Button android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button3_string"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
 
 </android.support.v4.widget.NestedScrollView>
