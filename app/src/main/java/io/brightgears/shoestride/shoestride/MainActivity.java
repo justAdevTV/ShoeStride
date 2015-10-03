@@ -6,6 +6,7 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -13,8 +14,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.concurrent.CountDownLatch;
+import android.os.Handler;
 
 public class MainActivity extends AppCompatActivity implements SensorEventListener {
 
@@ -22,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private TextView count;
     boolean activityRunning, initialStep = true;
     private float initialStepCount;
+    final Handler handler = new Handler();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -86,6 +92,24 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 //        sensorManager.unregisterListener(this);
     }
 
+    public void flick(){
+        View imageView = findViewById(R.id.foot);
+        ViewGroup.LayoutParams sizeRule = imageView.getLayoutParams();
+        sizeRule.width += 53;
+        sizeRule.height += 53;
+        imageView.setLayoutParams(sizeRule);
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                final ViewGroup.LayoutParams sizeRule2 = findViewById(R.id.foot).getLayoutParams();
+                sizeRule2.width = 50;
+                sizeRule2.height = 50;
+                findViewById(R.id.foot).setLayoutParams(sizeRule2);
+            }
+        }, 50);
+    }
+
+
     @Override
     public void onSensorChanged(SensorEvent event) {
         if(initialStep) {
@@ -95,6 +119,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         if (activityRunning) {
             count.setText(String.valueOf(event.values[0] - initialStepCount));
         }
+       flick();
+
 
     }
 

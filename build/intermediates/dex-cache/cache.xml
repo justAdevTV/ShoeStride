@@ -9,6 +9,13 @@
         <dex dex="C:\Users\riche_000\AndroidStudioProjects\ShoeStride\app\build\intermediates\pre-dexed\debug\classes-79247dc98ffce778dd26b6bc02db014a8276fecc.jar" />
     </item>
     <item
+        jar="C:\Users\riche_000\AndroidStudioProjects\ShoeStride\app\libs\Parse-1.9.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5811138d4e6cb9d45030e133ef1a61b935154c3a">
+        <dex dex="C:\Users\riche_000\AndroidStudioProjects\ShoeStride\app\build\intermediates\pre-dexed\debug\Parse-1.9.0-f9199b0486eed265767f34f1b673a60e98d015ca.jar" />
+    </item>
+    <item
         jar="C:\Users\riche_000\AndroidStudioProjects\ShoeStride\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
