@@ -18,6 +18,8 @@ import android.view.MenuItem;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.parse.*;
+import java.io.FileOutputStream;
 
 import java.util.concurrent.CountDownLatch;
 import android.os.Handler;
@@ -53,6 +55,14 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
         count = (TextView) findViewById(R.id.count);
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+
+
+        Parse.enableLocalDatastore(this);
+        Parse.initialize(this, "SiMc47BdCSoAohBLkM08qI5GlyJitF5WGQVKQWgJ", "QJTpabgkSXyqap6LS97w02WmTZSOqQWrGvT4NETZ");
+
+        ParseObject testObject = new ParseObject("TestObject");
+        testObject.put("foo", "bar");
+        testObject.saveInBackground();
     }
 
     @Override
@@ -119,6 +129,21 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         }, 50);
     }
 
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        String FILENAME = "stepData";
+        String string = String.valueOf(initialStepCount);
+
+        /*FileOutputStream fos;
+        try{
+        fos = openFileOutput(FILENAME, Context.MODE_PRIVATE);
+        fos.write(string.getBytes()); }
+        catch (Exception e){
+            fos.close();
+        }*/
+    }
 
     @Override
     public void onSensorChanged(SensorEvent event) {
