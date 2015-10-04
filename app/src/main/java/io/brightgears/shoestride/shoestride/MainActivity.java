@@ -6,17 +6,23 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.transition.TransitionManager;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.parse.*;
 import java.io.FileOutputStream;
+
+import java.util.concurrent.CountDownLatch;
+import android.os.Handler;
 
 public class MainActivity extends AppCompatActivity implements SensorEventListener {
 
@@ -24,6 +30,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private TextView count;
     boolean activityRunning, initialStep = true;
     private float initialStepCount;
+    final Handler handler = new Handler();
+    ViewGroup thisLayout,customMain;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +39,10 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        System.out.println("onCreate");
 
+        thisLayout = (ViewGroup) findViewById(R.id.mainLayout);
+        customMain = (ViewGroup) findViewById(R.id.customMain);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -96,6 +107,29 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 //        sensorManager.unregisterListener(this);
     }
 
+    public void flick(View view){
+        View imageView = findViewById(R.id.foot);
+        //TransitionManager.beginDelayedTransition(thisLayout);
+        //TransitionManager.beginDelayedTransition(customMain);
+        ViewGroup.LayoutParams sizeRule = imageView.getLayoutParams();
+        sizeRule.width += 53;
+        sizeRule.height += 53;
+        //TransitionManager.beginDelayedTransition(thislayout);
+
+        imageView.setLayoutParams(sizeRule);
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                //TransitionManager.beginDelayedTransition(customMain);
+                final ViewGroup.LayoutParams sizeRule2 = findViewById(R.id.foot).getLayoutParams();
+                sizeRule2.width = 50;
+                sizeRule2.height = 50;
+                findViewById(R.id.foot).setLayoutParams(sizeRule2);
+            }
+        }, 50);
+    }
+
+
     @Override
     protected void onStop() {
         super.onStop();
@@ -120,6 +154,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         if (activityRunning) {
             count.setText(String.valueOf(event.values[0] - initialStepCount));
         }
+       flick(findViewById(R.id.foot));
+
 
     }
 
