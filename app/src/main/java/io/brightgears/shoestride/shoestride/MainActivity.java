@@ -15,6 +15,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.parse.*;
+import java.io.FileOutputStream;
 
 public class MainActivity extends AppCompatActivity implements SensorEventListener {
 
@@ -42,6 +44,14 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
         count = (TextView) findViewById(R.id.count);
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+
+
+        Parse.enableLocalDatastore(this);
+        Parse.initialize(this, "SiMc47BdCSoAohBLkM08qI5GlyJitF5WGQVKQWgJ", "QJTpabgkSXyqap6LS97w02WmTZSOqQWrGvT4NETZ");
+
+        ParseObject testObject = new ParseObject("TestObject");
+        testObject.put("foo", "bar");
+        testObject.saveInBackground();
     }
 
     @Override
@@ -84,6 +94,21 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         activityRunning = false;
         // if you unregister the last listener, the hardware will stop detecting step events
 //        sensorManager.unregisterListener(this);
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        String FILENAME = "stepData";
+        String string = String.valueOf(initialStepCount);
+
+        /*FileOutputStream fos;
+        try{
+        fos = openFileOutput(FILENAME, Context.MODE_PRIVATE);
+        fos.write(string.getBytes()); }
+        catch (Exception e){
+            fos.close();
+        }*/
     }
 
     @Override
